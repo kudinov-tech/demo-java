@@ -39,3 +39,4 @@ jobs:
       uses: anchore/sbom-action@v0
       with:
         image: localbuild/testimage:latest
+        dependency-snapshot: true
