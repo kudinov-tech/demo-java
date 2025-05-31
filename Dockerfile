@@ -1,3 +1,3 @@
-FROM alpine:3.20.6
+FROM alpine:3.21.2
 
 LABEL maintainer="someome@example.com"
