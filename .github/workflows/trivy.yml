@@ -39,6 +39,7 @@ jobs:
           image-ref: 'docker.io/my-organization/my-app:${{ github.sha }}'
           format: 'sarif'
           output: 'trivy-results.sarif'
+          version: v0.63.0
 
       - name: Upload Trivy scan results to GitHub Security tab
         if: always()
